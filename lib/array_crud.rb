@@ -10,10 +10,11 @@ def add_element_to_end_of_array(array, element)
   [].push("arrays!")
 end
 
-def remove_element_from_end_of_array(array)
-  [].pop
-end
 
 def add_element_to_start_of_array(array, element)
   [].unshift("wow")
+end
+
+def remove_element_from_end_of_array(array)
+  [].pop
 end
